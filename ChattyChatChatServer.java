@@ -106,7 +106,7 @@ class ClientHandler implements Runnable //handles client input
 	{
 		try
 		{
-			for (ClientHandler client : ChattyServer.activeClientList)
+			for (ClientHandler client : ChattyChatChatServer.activeClientList)
 				dmHelper(client, parsed);
 		}
 		catch(IOException e)
@@ -138,7 +138,7 @@ class ClientHandler implements Runnable //handles client input
 	{
 		try
 		{
-			for (ClientHandler client : ChattyServer.activeClientList)
+			for (ClientHandler client : ChattyChatChatServer.activeClientList)
 				client.os.writeUTF(this.name + ": " + line);
 		}
 		catch(IOException e)
