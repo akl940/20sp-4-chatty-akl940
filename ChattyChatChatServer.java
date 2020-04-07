@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.net.*;
 
-public class ChattyServer {
+public class ChattyChatChatServer {
 	
 	static Vector<ClientHandler> activeClientList = new Vector<>();
 	

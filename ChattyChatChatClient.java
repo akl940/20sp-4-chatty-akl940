@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*; 
 import java.util.Scanner; 
 
-public class ChattyClient {
+public class ChattyChatChatClient {
 
 	public static void main(String args[]) throws UnknownHostException, IOException
 	{
